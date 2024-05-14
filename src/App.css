@@ -1,0 +1,77 @@
+.background-color {
+  background-color: #eeee !important;
+}
+.background-color-box {
+  background-color: white !important;
+}
+.img-log {
+  width: 185px;
+}
+.text-color {
+  color: black !important;
+}
+.inputboder {
+  border: 1px solid #eee !important;
+  border-radius: 6px;
+}
+/* .input {
+  color: #757575 !important;
+} */
+.fontfamily {
+  font-size: 15px !important;
+  padding: 10px !important;
+}
+.gradient-custom-2 {
+  /* fallback for old browsers */
+  background: #fccb90;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(
+    to right,
+    #ee7724,
+    #d8363a,
+    #dd3675,
+    #b44593
+  );
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+}
+
+@media (min-width: 768px) {
+  /* .gradient-form {
+    height: 100vh !important;
+  } */
+}
+@media (min-width: 769px) {
+  .gradient-custom-2 {
+    border-top-right-radius: 0.3rem;
+    border-bottom-right-radius: 0.3rem;
+  }
+}
+/* table */
+tr:hover {
+  background-color: black;
+  opacity: 0.3;
+}
+/* profile Modal */
+.profile-content p {
+  background: gray;
+  border-radius: 5px;
+  color: white;
+}
+.modal-bg {
+  background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+}
+.form-control {
+  color: #fff !important;
+}
+.modal-content {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+.form-control-re:hover {
+  background-color: green !important;
+}
+select option{
+  background: #ffff;
+}
